@@ -1,0 +1,9 @@
+const { genererRecapitulatif } = require('./src/panier');
+
+const petitPanier = [
+    { id: 1, nom: "Harry Potter", prix: 12.99, catégorie: "livres", quantité: 2 },
+    { id: 2, nom: "Inception", prix: 14.99, catégorie: "dvd", quantité: 1 },
+    { id: 3, nom: "The Witcher 3", prix: 39.99, catégorie: "jeux vidéo", quantité: 1 }
+];
+
+console.log(genererRecapitulatif(petitPanier));
